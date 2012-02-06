@@ -1,0 +1,15 @@
+Installing from sources
+
+   1. Unpack asyscon source package
+   2. Go to asyscon folder and type "phpize && ./configure && make && make install"
+   3. Make sure you have extension=asyscon.so in your php.ini
+   4. Add configuration lines to your php.ini to use the extension
+
+Compiling Asyscon into PHP
+
+   1. Unpack asyscon source package to $PHP_SOURCE_DIR/ext/asyscon
+   2. In php source root directory run commands: "rm configure && ./buildconf --force"
+   3. Configure PHP with command "./configure --with-asyscon"
+   4. Run make && make install
+   5. Add configuration lines to your php.ini to use the extension
+
